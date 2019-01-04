@@ -18,29 +18,5 @@ public class _83 {
 	D. nb 
 	E. An exception is thrown at runtime 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	Richtige Antwort: E
 */

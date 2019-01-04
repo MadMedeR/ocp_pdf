@@ -1,10 +1,10 @@
 package fragen_81_100;
 
-//import java.util.Arrays;
+import java.util.Arrays;
 
 interface CheckClass {
 	public static int checkValue (String s1, String s2) { 
-		return s1.length() -s2.length(); 
+		return s1.length()-s2.length(); 
 	} 
 }
 
@@ -13,7 +13,7 @@ public class _84 {
 		//and the code fragment:
 		String[] strArray = new String [] {"Tiger", "Rat", "Cat", "Lion"};
 		//line n1
-		//Arrays.sort(strArray, CheckClass :: new :: checkValue);
+		Arrays.sort(strArray, CheckClass :: checkValue);
 		for (String s : strArray) {
 			System.out.print (s + " ");
 		} 
@@ -28,4 +28,5 @@ public class _84 {
 	C. Arrays.sort(strArray, (CheckClass : : new).checkValue);
 	D. Arrays.sort(strArray, CheckClass : : new : : checkValue);
 	
+	Richtige Antwort: A
  */
