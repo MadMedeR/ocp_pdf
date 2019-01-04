@@ -1,6 +1,6 @@
 package fragen_81_100;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 
 interface CheckClass {
 	public static int checkValue (String s1, String s2) { 
