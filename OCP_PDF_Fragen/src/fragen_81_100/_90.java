@@ -19,7 +19,7 @@ public class _90 {
 				.filter(cf1)
 				.filter(cf2)//line n2
 				.count();
-				System.out.println(c);
+		System.out.println(c);
 	}
 }
 //Given the code fragments:

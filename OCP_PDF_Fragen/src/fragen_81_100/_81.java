@@ -12,7 +12,8 @@ import java.nio.file.Paths;
 public class _81 {
 	public static void main(String[] args) throws IOException {
 		Path source = Paths.get("/data/december/log.txt");
-		Path destination = Paths.get("/data");
+			System.out.println(source.toAbsolutePath()); //Test für Pfad (nicht in Frage)
+		Path destination = Paths.get("/data");	
 		Files.copy(source, destination);
 	}
 }
@@ -26,22 +27,6 @@ public class _81 {
 	B. The program executes successfully and does NOT change the file system. 
 	C. A FileNotFoundException is thrown at run time. 
 	D. A FileAlreadyExistsException is thrown at run time.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	Richtige Antwort: D
  */
