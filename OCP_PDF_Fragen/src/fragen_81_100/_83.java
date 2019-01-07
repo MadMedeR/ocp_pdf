@@ -19,6 +19,4 @@ public class _83 {
 	E. An exception is thrown at runtime 
 
 	Richtige Antwort: E
-	
-	Max
 */
