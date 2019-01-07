@@ -11,9 +11,8 @@ import java.nio.file.Paths;
 
 public class _81 {
 	public static void main(String[] args) throws IOException {
-		Path source = Paths.get("/data/december/log.txt");
-			System.out.println(source.toAbsolutePath()); //Test für Pfad (nicht in Frage)
-		Path destination = Paths.get("/data");	
+		Path source = Paths.get("data/december/log.txt");
+		Path destination = Paths.get("data");	
 		Files.copy(source, destination);
 	}
 }
