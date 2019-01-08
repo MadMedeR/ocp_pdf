@@ -8,8 +8,5 @@ public static void main(String[] args) {
 	}
 }
 }
-<<<<<<< HEAD
-// Answer A
-=======
-// Answer A 
->>>>>>> branch 'master' of https://github.com/MadMedeR/ocp_pdf.git
+
+// Answer A 6 7 8 
