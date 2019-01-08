@@ -12,8 +12,9 @@ public static void main(String[] args) throws IOException {
 	Path source = Paths.get("green.txt");
 	Path target = Paths.get("colors/yellow.txt");
 	if (!Files.exists(source)) Files.createFile(source);
-	Files.
-	Files.move(source, target, StandardCopyOption.REPLACE_EXISTING);
+	if (!Files.exists(target)) Files.createFile(target);
+
+	Files.move(source, target, StandardCopyOption.ATOMIC_MOVE);
 	Files.delete(source);
 }
 }
