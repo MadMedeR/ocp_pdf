@@ -10,4 +10,6 @@ public class ToDo {
 	Frage 95: SQL
 	Frage 96: Stream
 	Frage 99: Stream
+	
+	Frage 105: SQL
 */

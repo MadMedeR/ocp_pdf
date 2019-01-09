@@ -8,4 +8,5 @@ public static void main(String[] args) {
 	}
 }
 }
-// Answer A 
+
+// Answer A 6 7 8 

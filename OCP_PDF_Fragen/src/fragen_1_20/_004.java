@@ -1,3 +1,4 @@
+
 package fragen_1_20;
 
 import java.util.Arrays;
@@ -10,6 +11,10 @@ public static void main(String[] args) {
 	.map(n -> n*2) //line n1
 	.peek(System.out::print)//line n2
 	.count();
+	
+Stream
+	
+	System.out.println(l);
 
 /**
  * What is the result?
