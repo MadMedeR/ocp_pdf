@@ -26,7 +26,7 @@ public class _61 {
 		Good Day! 
 	D.	Good Luck! 
 		Good Luck! 
-	E. Compilation fails
+	E.	Compilation fails
 	
 	Answer: A
 */
