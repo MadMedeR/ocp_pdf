@@ -33,4 +33,5 @@ public class _67 { //originally Classname: Coin
 	E. Add the final keyword in the declaration of value.
 	
 	Answer: You have to do A,B and C!!!
+	When two files B and C 
 */
