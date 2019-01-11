@@ -12,9 +12,6 @@ public static void main(String[] args) {
 	.peek(System.out::print)//line n2
 	.count();
 	
-Stream
-	
-	System.out.println(l);
 
 /**
  * What is the result?
