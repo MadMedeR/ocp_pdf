@@ -16,13 +16,7 @@ and
 
 */
 
-/*
-  Which modification enables the code to print Try again?
-  
-A. Comment the lines 28, 29 and 30 
-B. Replace line 26 with: } catch (Exception | ArithmeticException | NumberFormatException e) { 
-C. Replace line 26 with: } catch (ArithmeticException | NumberFormatException e) { 
-D. Replace line 27 with: throw e;*/
+
 
 public class _47 {
 	static void doStuff() throws ArithmeticException, NumberFormatException, Exception {
@@ -40,6 +34,12 @@ public static void main(String[] args) {
 		 }
 }
 
+/*
+Which modification enables the code to print Try again?
 
+A. Comment the lines 28, 29 and 30 
+B. Replace line 26 with: } catch (Exception | ArithmeticException | NumberFormatException e) { 
+C. Replace line 26 with: } catch (ArithmeticException | NumberFormatException e) { 
+D. Replace line 27 with: throw e;*/
 // https://www.briefmenow.org/oracle/which-modification-enables-the-code-to-print-try-again/  Frage 72 
 //Answer C

@@ -1,14 +1,5 @@
 package fragen_081_100;
 
-public class _91 {
-	public static void main(String[] args) {
-		Book b1 = new Book (101, "Java Programing");
-		Book b2 = new Book (102, "Java Programing");
-		System.out.println(b1.equals(b2));
-		//line n2
-	}
-}
-
 class Book {
 	int id;
 	String name;
@@ -27,6 +18,17 @@ class Book {
 		return output;
 	}
 }
+
+
+public class _91 {
+	public static void main(String[] args) {
+		Book b1 = new Book (101, "Java Programing");
+		Book b2 = new Book (102, "Java Programing");
+		System.out.println(b1.equals(b2)); //line n2
+	}
+}
+
+
 
 /*
 	Which statement is true?

@@ -7,6 +7,17 @@ import java.util.stream.Collectors;
 
 import fragen_101_End.Country.Continent;
 
+class Country {
+public enum Continent {ASIA, EUROPE}
+String name;
+Continent region;
+public Country (String na, Continent reg) {
+name = na; region = reg;
+}
+public String getName () {return name;}
+public Continent getRegion () {return region;}
+}
+
 public class _106 {
 public static void main(String[] args) {
 	List<Country> couList = Arrays.asList (
@@ -20,15 +31,6 @@ public static void main(String[] args) {
 }
 }
 
-class Country {
-public enum Continent {ASIA, EUROPE}
-String name;
-Continent region;
-public Country (String na, Continent reg) {
-name = na; region = reg;
-}
-public String getName () {return name;}
-public Continent getRegion () {return region;}
-}
+
 
 // Answer A : EUROPE=[Italy, Germany], ASIA=[Japan]}
