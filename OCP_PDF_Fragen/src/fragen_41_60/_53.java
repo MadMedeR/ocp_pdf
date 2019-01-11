@@ -1,6 +1,7 @@
 package fragen_41_60;
 
 import java.util.Arrays;
+import java.util.stream.*;
 import java.util.List;
 
 public class _53 {
@@ -9,13 +10,18 @@ public static void main(String[] args) {
 			new Student ("Jessy", "Java ME", "Chicago"),
 			new Student ("Helen", "Java EE", "Houston"),
 			new Student ("Mark", "Java ME", "Chicago"));
-	        stds.stream()
+	 stds.stream()
 			.collect(Collectors.groupingBy(Student::getCourse))
-			.forEach(src, res) -> System.out.println(scr));
+			.forEach((src, res) -> System.out.println(src));
 }
 }
 
 class Student {
+	
+	
+public String getCourse() {
+		return course;
+	}
 String course, name, city;
 public Student (String name, String course, String city) {
 this.course = course; this.name = name; this.city = city;
@@ -37,5 +43,6 @@ return course + ":" + name + ":" + city;
 
 
 // https://www.briefmenow.org/oracle/what-is-the-result-941/    Frage 62
-
+// When we write getter(getCourse) in Student class 
+//and change scr to src then  B if not then D
 // Answer :  (B or D)???   see comments!!!! unter www.briefmenow.org/oracle/what-is-the-result-941/ 
