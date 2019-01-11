@@ -15,4 +15,7 @@ public class _36 {}
 	The DriverManager returns an instance of Doctrine\DBAL\Connection which is a wrapper around
 	the underlying driver connection (which is often a PDO instance).
 	http://doctrine-dbal.readthedocs.org/en/latest/reference/configuration.html
+	
+	Siehe auch web_41
+	http://www.briefmenow.org/oracle/which-statement-is-true-about-the-drivermanager-class/
 */

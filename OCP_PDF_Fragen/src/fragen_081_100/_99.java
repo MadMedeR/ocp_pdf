@@ -26,4 +26,7 @@ public class _99 {
 		101, Peter, HR
 	
 	Answer: A
+	
+	siehe auch web_44
+	http://www.briefmenow.org/oracle/what-is-the-result-954/
 */

@@ -27,3 +27,8 @@ public static void main(String[] args) {
 //E. A compilation error occurs
 
 // Answer A when correct line 13 from System.out.print(i++) + ":");
+
+/*
+	siehe auch web_45
+	http://www.briefmenow.org/oracle/what-is-the-result-953/
+*/
