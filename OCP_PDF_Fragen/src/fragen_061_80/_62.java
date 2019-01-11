@@ -22,4 +22,7 @@ public class _62 {
 	D. listVal.stream().filter(x -> x.length()>3).mapToInt(x -> x).count()
 	
 	Answer: A
+	
+	siehe auch web_48
+	http://www.briefmenow.org/oracle/which-code-fragment-when-inserted-at-line-n1-enables-4/
 */
