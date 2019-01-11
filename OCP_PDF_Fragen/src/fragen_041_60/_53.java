@@ -17,8 +17,6 @@ public static void main(String[] args) {
 }
 
 class Student {
-	
-	
 public String getCourse() {
 		return course;
 	}
