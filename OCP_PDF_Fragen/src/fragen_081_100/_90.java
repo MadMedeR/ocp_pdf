@@ -4,6 +4,13 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
+//Given the code fragments:
+interface CourseFilter extends Predicate<String> {
+	public default boolean test (String str) {
+		return str.equals ("Java");
+	}
+}
+
 public class _90 {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
@@ -22,12 +29,7 @@ public class _90 {
 		System.out.println(c);
 	}
 }
-//Given the code fragments:
-interface CourseFilter extends Predicate<String> {
-	public default boolean test (String str) {
-		return str.equals ("Java");
-	}
-}
+
 
 /*
 	What is the result
