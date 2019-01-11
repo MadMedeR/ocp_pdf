@@ -1,5 +1,6 @@
 package fragen_020_40;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -17,11 +18,11 @@ class Product {
 
 public class _40 {
 	public static void main(String[] args) {	
-		List<Product> products = Arrays.asList(
+		List<Product> products = new ArrayList<>(Arrays.asList(
 			new Product(1, 10), 
-			new Product (2, 30),
-			new Product (2, 30)
-		);
+			new Product(2, 20),
+			new Product(2, 30)
+		));
 		Product p = products.stream().reduce(new Product (4, 0), (p1, p2) -> {
 						p1.price += p2.price;
 						return new Product (p1.id, p1.price);
@@ -45,5 +46,8 @@ public class _40 {
 		1 : 10
 	E.	The program prints nothing
 
-	Answer: E - RuntimeException: UnsupportedOperationException
+	Answer: C with small corrections in the code
+	
+	siehe auch web_50
+	http://www.briefmenow.org/oracle/what-is-the-result-950/
 */

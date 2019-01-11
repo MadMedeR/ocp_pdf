@@ -1,23 +1,25 @@
 package fragen_020_40;
 
-public class _23 {
-public static void main(String[] args) {
-	
+public class _23 {}
+
+class Canvas implements Drawable {
+	public void draw () {}
 }
+
+abstract class Board extends Canvas {}
+
+class Paper extends Canvas {
+	protected void draw (int color) {}
 }
- class Canvas implements Drawable {
-public void draw () { }
+
+class Frame extends Canvas implements Drawable {
+	public void resize () {}
 }
- abstract class Board extends Canvas { }
- class Paper extends Canvas {
-protected void draw (int color) { }
+
+interface Drawable {
+	public abstract void draw ();
 }
- class Frame extends Canvas implements Drawable {
-public void resize () { }
-}
- interface Drawable {
-public abstract void draw ();
-}
+
  /**
  Which statement is true?
  A. Board does not compile.
@@ -28,4 +30,9 @@ public abstract void draw ();
  **/
  
  
- //Answer E All classes compile successfully
+ /*
+	Answer E All classes compile successfully
+	
+	siehe auch web_46
+	http://www.briefmenow.org/oracle/which-statement-is-true-304/
+  */
