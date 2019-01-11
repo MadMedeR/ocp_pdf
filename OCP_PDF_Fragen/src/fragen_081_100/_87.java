@@ -1,12 +1,5 @@
 package fragen_081_100;
 
-public class _87 {
-	public static void main(String[] args) {
-		Vehicle v = new Vehicle (100); 
-		v.increSpeed(60); 
-	}
-}
-
 class Vehicle {
 	int distance; // line n1
 	Vehicle (int x) {
@@ -27,6 +20,14 @@ class Vehicle {
 		new Car().speed();
 	}
 }
+
+public class _87 {
+	public static void main(String[] args) {
+		Vehicle v = new Vehicle (100); 
+		v.increSpeed(60); 
+	}
+}
+
 /*
 	What is the result?
 
@@ -35,5 +36,5 @@ class Vehicle {
 	C. A compilation error occurs at line n2.
 	D. A compilation error occurs at line n3.
 	
-	Richtige Antwort: A
+	Richtige Antwort: A. Velocity with new speed.
 */
