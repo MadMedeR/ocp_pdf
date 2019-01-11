@@ -1,6 +1,6 @@
 package fragen_101_End;
 
-public class _111 {
+public class _111 { // class Counter
 	public static void main (String[ ] args) {
 		int a = 10;
 		int b = -1;

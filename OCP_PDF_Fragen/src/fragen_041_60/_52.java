@@ -34,7 +34,8 @@ C. static void fly (Supplier<Bird> bird) { bird.get( ) fly (); }
 D. static void fly (Supplier<? extends Bird> bird) { LOST
 */
 
-// https://www.briefmenow.org/oracle/which-code-fragment-when-inserted-at-line-n1-enables-3/   Frage 79 
+// https://www.briefmenow.org/oracle/which-code-fragment-when-inserted-at-line-n1-enables-3/
+// Frage 79 
 
 // Answer C
 // code fragment D ist nicht voll !!!!

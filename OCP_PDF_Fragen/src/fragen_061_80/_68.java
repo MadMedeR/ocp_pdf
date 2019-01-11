@@ -47,6 +47,6 @@ public class _68 {
 	C. A compilation error occurs at line n1.
 	D. The program prints several values whose sum exceeds 55.
 	
-	Answer: wahrscheinlich A
+	Answer: A
 */
  

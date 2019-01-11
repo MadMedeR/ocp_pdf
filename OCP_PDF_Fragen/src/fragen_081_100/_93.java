@@ -7,7 +7,9 @@ import java.util.stream.Stream;
 
 public class _93 {
 	public static void main(String[] args) {
-		Stream<List<String>> iStr= Stream.of(Arrays.asList ("1", "John"), Arrays.asList ("2", null)); 
+		Stream<List<String>> iStr= Stream.of(
+				Arrays.asList ("1", "John"), 
+				Arrays.asList ("2", null)); 
 		Stream<String> nInSt = iStr.flatMapToInt((x) -> x.stream()); 
 		nInSt.forEach (System.out :: print); 
 	}
@@ -22,4 +24,10 @@ public class _93 {
 	D. A compilation error occurs
 
 	Answer: D
+	Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from IntStream to Stream<String>
+	Type mismatch: cannot convert from Stream<String> to IntStream
+
+	at fragen_081_100._93.main(_93.java:13)
+	
 */
