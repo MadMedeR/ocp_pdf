@@ -35,4 +35,7 @@ public class _92 {
 	D. The program prints the content of the three files
 	
 	Answer: A
+	
+	siehe auch web_36:
+	http://www.briefmenow.org/oracle/what-is-the-result-955/
 */

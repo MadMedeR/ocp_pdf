@@ -1,6 +1,8 @@
 package fragen_001_20;
 
-public final class _16 {
+public class _16 {}
+
+final class IceCream {
 	public void prepare() {
 	}
 }

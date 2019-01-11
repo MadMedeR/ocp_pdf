@@ -38,5 +38,11 @@ public class _95 {
 	C. The program prints Error. 
 	D. Compilation fails on line 13. 
 
-	Answer: ?
+	Answer: C
+	
+	siehe auch web_33:
+	http://www.briefmenow.org/oracle/what-is-the-result-of-compiling-and-executing-this-code-9/
+	
+	Explanation:
+	Exception is thrown because ResultSet not open. It is automatically closed when stmt.executeQuery is called at line 13.
 */
