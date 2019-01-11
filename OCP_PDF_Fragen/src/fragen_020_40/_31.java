@@ -5,8 +5,8 @@ import java.util.concurrent.SynchronousQueue;
 public class _31 extends Root{ // TestA in frage
 	public static void main(String[] args) {
 		Root r = new _31(); 
-		System.out.println(r.method1());
-		System.out.println(r.method2());
+		System.out.println(r.method1()); //line n1
+		System.out.println(r.method2()); // line n2
 		
 	}
 
