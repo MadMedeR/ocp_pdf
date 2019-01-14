@@ -1,7 +1,7 @@
 package fragen_061_80;
 
 
-public enum USCurrency {
+/*public*/ enum USCurrency { //have to be in different files
 	PENNY (1),
 	NICKLE(5),
 	DIME (10),
@@ -9,7 +9,9 @@ public enum USCurrency {
 	
 	private int value;
 	
-	public USCurrency(int value) {
+	
+	//original line: public USCurrency(int value) {
+	private USCurrency(int value) { // already solved with Answer B
 		this.value = value;
 	}
 	
@@ -18,7 +20,8 @@ public enum USCurrency {
 
 public class _67 { //originally Classname: Coin
 	public static void main(String[] args) {
-		USCurrency usCoin = new USCurrency.DIME; 
+		//original line: USCurrency usCoin = new USCurrency.DIME; 
+		USCurrency usCoin = USCurrency.DIME;  // already solved with Answer C
 		System.out.println(usCoin.getValue());
 	}
 }
@@ -32,6 +35,10 @@ public class _67 { //originally Classname: Coin
 	D. Make the getter method of value as a static method.
 	E. Add the final keyword in the declaration of value.
 	
-	Answer: You have to do A,B and C!!!
-	When two files B and C 
+	Answer: A,B and C if in the same file
+			B and C if there are two files 
+	
+	siehe auch web_59
+	http://www.briefmenow.org/oracle/which-two-modifications-enable-the-given-code-to-compile/
+	
 */

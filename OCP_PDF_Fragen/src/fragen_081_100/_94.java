@@ -29,5 +29,8 @@ public class _94 {
 	C. The files in the home directory are listed along with their attributes.
 	D. A compilation error occurs at line n2.
 	
-	Answer: A (or C?)
+	Answer: A
+	
+	siehe auch web_55
+	http://www.briefmenow.org/oracle/what-is-the-result-946/
 */

@@ -16,8 +16,7 @@ class Employee {
 
 class Address {
 	String city = "New York";
-public String getCity()
-	{
+	public String getCity() {
 		return city;
 	}
 
@@ -26,6 +25,7 @@ public String getCity()
 	}
 }
 
+@SuppressWarnings("unused")
 public class _57 {
 	public static void main(String[] args) {
 		Address address = null;
@@ -37,11 +37,17 @@ public class _57 {
 }
 
 
-/*What is the result?
-A. New York
-B. City Not available
-C. null 
-D. A NoSuchElementException is thrown at run time*/
-
-//https://www.briefmenow.org/oracle/what-is-the-result-945/   Frage 56
-// Answer B
+/*
+	What is the result?
+	
+	A. New York
+	B. City Not available
+	C. null 
+	D. A NoSuchElementException is thrown at run time
+	
+	Answer: B
+	
+	siehe auch web_56
+	https://www.briefmenow.org/oracle/what-is-the-result-945/
+	
+*/
