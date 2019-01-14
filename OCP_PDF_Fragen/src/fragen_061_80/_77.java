@@ -4,14 +4,14 @@ package fragen_061_80;
 class FuelNotAvailException extends Exception {}
 
 class Vehicle {
-	void ride() throws FuelNotAvailException { //line n1
+	//original line: void ride() throws FuelNotAvailException { //line n1
+	protected void ride() throws Exception { //already solved with Answer B
 		System.out.println("Happy Journey!");
 	}
 }
 
 class SolarVehicle extends Vehicle {
-	//original line:  public void ride() throws Exception { //line n2 
-	public void ride() throws FuelNotAvailException { //already solved with Answer
+	public void ride() throws Exception { //line n2
 		super.ride();
 	}
 }
@@ -22,6 +22,7 @@ public class _77 {
 		v.ride();
 	}
 }
+
 /*
 	Which modification enables the code fragment to print Happy Journey!?
 	
