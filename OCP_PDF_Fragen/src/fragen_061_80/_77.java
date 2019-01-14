@@ -35,5 +35,5 @@ public class _77 {
 	D. Replace line n2 with: 
 		private void ride() throws FuelNotAvailException {
 	
-	Answer: A
+	Answer: B
 */
