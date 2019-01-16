@@ -12,7 +12,7 @@ public class _35 {}
 	D.	You want to declare non-static on non-final fields.
 	E.	You want to take advantage of multiple inheritance of type.
 
-	Answer: A,E
+	Answer: B,E
 	
 	Explanation:
 	http://www.programmerinterview.com/index.php/java-questions/interface-vs-abstract-class/
