@@ -10,5 +10,5 @@ public class _73 {}
 	C. At the declaration time, the number of elements of the array in each dimension must be specified.
 	D. All methods of the class object may be invoked on the two-dimensional array.
 	
-	Answer: C,D ???
+	Answer: A,D ???
 */
