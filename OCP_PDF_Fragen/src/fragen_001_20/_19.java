@@ -4,6 +4,9 @@ public class _19 {
 	public static void main(String[] args) {
 		String message = "Hi everyone!";
 		System.out.println("message = " + message.replace("e", "X"));
+		String t1 = "Test";
+		System.out.println(t1.replace('T', 't'));
+		System.out.println(t1);
 	}
 }
 

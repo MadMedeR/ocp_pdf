@@ -8,6 +8,7 @@ public class _15 {
 		Rideable rider = Car::new; 
 		Car vehicle = rider.getCar("MyCar");
 		//D. Car vehicle = Rideable::new::getCar(“MyCar”);
+		System.out.println(rider.toString());
 		}
 }
 

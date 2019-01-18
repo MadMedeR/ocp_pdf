@@ -1,7 +1,6 @@
 package fragen_020_40;
 
 public class _25 {
-
 }
 
 class ScopeTest {
