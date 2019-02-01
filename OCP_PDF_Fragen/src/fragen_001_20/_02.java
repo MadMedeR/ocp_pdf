@@ -18,7 +18,7 @@ class Gamma extends Beta{
 		return msg.substring(2);
 	}
 }
-public class _002 {
+public class _02 {
 	public static void main(String[] args) {
 		List<Alpha> strs = new ArrayList<>();
 		strs.add(new Alpha());

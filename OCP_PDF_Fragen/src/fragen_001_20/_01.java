@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 
-public class _001 {
+public class _01 {
 public static void main(String[] args) throws IOException {
 	Path source = Paths.get("green.txt");
 	Path target = Paths.get("colors/yellow.txt");

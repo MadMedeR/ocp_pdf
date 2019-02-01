@@ -4,7 +4,7 @@ package fragen_001_20;
 import java.util.Arrays;
 import java.util.List;
 
-public class _004 {
+public class _04 {
 	public static void main(String[] args) {
 		List<Integer> values = Arrays.asList(1,2,3);
 		values.stream()
