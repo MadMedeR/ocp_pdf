@@ -1,26 +1,20 @@
 package fragen_001_20;
 
-@SuppressWarnings("unused")
-public class _15 {
-	public static void main(String[] args) {
-		//Solved with Answer C: (Only one correct):
-		Rideable rider = Car::new; // same as: Rideable rider = (s) -> new Car(s);
-		Car vehicle = rider.getCar("MyCar");
-		
-		System.out.println(rider.toString());
-	}
-}
+interface Rideable { Car getCar(String name); }
 
-interface Rideable {
-	Car getCar(String name);
-}
-
-@SuppressWarnings("unused")
 class Car {
 	private String name;
 
 	public Car(String name) {
 		this.name = name;
+	}
+}
+
+public class _15 {
+	public static void main(String[] args) {
+		//Solved with Answer C: (Only one correct):
+		Rideable rider = Car::new; // same as: Rideable rider = (s) -> new Car(s);
+		Car vehicle = rider.getCar("MyCar");
 	}
 }
 
@@ -35,9 +29,9 @@ class Car {
 	D.  Car vehicle = Rideable : : new : : getCar("MyCar"); 
 
 	Answer: only C
-
-	https://www.briefmenow.org/oracle/which-code-fragment-creates-an-instance-of-car/
+	
 	siehe auch Frage 43
+	https://www.briefmenow.org/oracle/which-code-fragment-creates-an-instance-of-car/
 	
 	Explanation:
 	The method of the Instance Rideable: Car getCar(String name)

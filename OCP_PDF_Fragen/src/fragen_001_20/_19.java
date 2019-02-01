@@ -11,13 +11,13 @@ public class _19 {
 }
 
 /*
-What is the result? 
-
-A.  message = Hi everyone! 
-B.  message = Hi XvXryonX! 
-C.  A compile time error is produced. 
-D.  A runtime error is produced. 
-E.  message = Hi Xveryone! 
+	What is the result?
+	
+	A. message = Hi everyone!
+	B. message = Hi XvXryonX!
+	C. A compile time error is produced.
+	D. A runtime error is produced.
+	E. message = Hi Xveryone!
+	
+	Answer: B 
  */
-//Answer: B 
-

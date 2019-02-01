@@ -40,9 +40,8 @@ public class _14 {
 	C.  .map(Emp::getfName).sorted(Comparator.reserveOrder()) 
 	D.  .map(Emp::getfName).sorted(Comparator.reserveOrder().map(Emp::getlName).reserved
 	
-	Answer A (see comments)
+	Answer: A (see comments)
 	
 	siehe auch web_60
 	https://www.briefmenow.org/oracle/which-code-fragment-when-inserted-at-line-n1-sorts-th/
-	
   */

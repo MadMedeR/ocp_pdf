@@ -14,15 +14,16 @@ public class _13 {
 }
 
 /*
-What is the result? 
-
-A.  20.0 
-30.0 
-B.  10 
-C.  A compilation error occurs 
-D.  A NumberFormatException is thrown at run time 
+	What is the result? 
+	
+	A.	20.0
+		30.0
+	B.	10
+	C.	A compilation error occurs
+	D.	A NumberFormatException is thrown at run time
+	
+	Answer: C
+	
+	siehe auch web_32
+	https://www.briefmenow.org/oracle/what-is-the-result-956/
 */
-
-// https://www.briefmenow.org/oracle/what-is-the-result-956/
-// Frage 32
-//Answer C
