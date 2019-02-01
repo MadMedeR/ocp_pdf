@@ -25,12 +25,14 @@ class ScopeTest {
 		}
 	}
 }
- /**
- Which two items are fields? (Choose two.)
- A. j
- B. k
- C. x
- D. y
- E. z
- **/
-// A
+ /*
+	Which two items are fields? (Choose two.)
+		
+	A. j
+	B. k
+	C. x
+	D. y
+	E. z
+	
+	Answer: A,B
+ */

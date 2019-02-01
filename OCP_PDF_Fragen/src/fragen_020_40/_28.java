@@ -12,9 +12,7 @@ class Vehicle {
 		this.name = name;
 	}
 	
-	public String toString () {
-		return vno + ":" + name;
-	}
+	public String toString () {	return vno + ":" + name; }
 }
 
 public class _28 {
