@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class _93 {
+public class _093 {
 	public static void main(String[] args) {
 		Stream<List<String>> iStr= Stream.of(
 				Arrays.asList ("1", "John"), 

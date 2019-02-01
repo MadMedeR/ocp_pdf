@@ -3,7 +3,7 @@ package fragen_081_100;
 import java.util.Arrays;
 import java.util.List;
 
-public class _99 {
+public class _099 {
 	public static void main(String[] args) {
 		List<String> empDetails = 
 				Arrays.asList("100, Robin, HR", "200, Mary, AdminServices", "101, Peter, HR");

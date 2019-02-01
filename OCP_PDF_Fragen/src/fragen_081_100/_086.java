@@ -1,6 +1,6 @@
 package fragen_081_100;
 
-public class _86 {
+public class _086 {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) { 
 		int[] array = {1,2,3}; 

@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.stream.Stream;
 
-public class _94 {
+public class _094 {
 	public static void main(String[] args) throws IOException {
 		Stream<Path> files = Files.walk(Paths.get(System.getProperty("user.home")));
 		files.forEach (fName -> { //line n1

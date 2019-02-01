@@ -1,6 +1,6 @@
 package fragen_081_100;
 
-public class _82 {
+public class _082 {
 }
 /*
 	The protected modifier on a Field declaration within a public class means that the field ____.

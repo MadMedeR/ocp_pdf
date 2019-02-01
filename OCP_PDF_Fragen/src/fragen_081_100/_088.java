@@ -1,6 +1,6 @@
 package fragen_081_100;
 
-public class _88 {
+public class _088 {
 	public static void main(String[] args) {
 		String theString = "Hello World";
 		System.out.println(theString.charAt(11));

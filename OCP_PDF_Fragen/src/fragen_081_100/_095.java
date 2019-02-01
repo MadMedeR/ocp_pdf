@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class _95 {
+public class _095 {
 	static String dbURL="",userName="",passWord="";
 	public static void main(String[] args) throws SQLException {
 		Connection conn = DriverManager.getConnection(dbURL, userName, passWord);

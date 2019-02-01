@@ -3,7 +3,7 @@ package fragen_081_100;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class _98 {
+public class _098 {
 	public static void main(String[] args) {
 		Path p1 = Paths.get("Pics/MyPic.jpeg");
 		System.out.println (p1.getNameCount() +

@@ -8,7 +8,7 @@ interface CheckClass {
 	} 
 }
 
-public class _84 {
+public class _084 {
 	public static void main(String[] args) {
 		//and the code fragment:
 		String[] strArray = new String [] {"Tiger", "Rat", "Cat", "Lion"};

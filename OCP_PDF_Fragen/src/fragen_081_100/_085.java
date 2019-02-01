@@ -3,7 +3,7 @@ package fragen_081_100;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class _85 {
+public class _085 {
 	public static void main(String[] args) {
 		Map<Integer, String> books = new TreeMap<>(); 
 		books.put (1007, "A"); 

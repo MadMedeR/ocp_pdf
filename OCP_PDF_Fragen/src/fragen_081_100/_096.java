@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
-public class _96 {
+public class _096 {
 	public static void main(String[] args) {
 		List<String> nL = Arrays.asList("Jim", "John", "Jeff");
 		Function<String, String> funVal = s -> "Hello : ".concat(s);

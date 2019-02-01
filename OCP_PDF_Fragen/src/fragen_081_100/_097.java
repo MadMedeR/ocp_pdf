@@ -1,6 +1,6 @@
 package fragen_081_100;
 
-public class _97 {
+public class _097 {
 	public static void main(String[] args) {
 		AnotherSampleClass asc = new AnotherSampleClass();
 		SampleClass sc = new SampleClass();

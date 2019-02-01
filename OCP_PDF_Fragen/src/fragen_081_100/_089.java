@@ -1,6 +1,6 @@
 package fragen_081_100;
 
-public class _89 {
+public class _089 {
 	public static void main (String[] args) {
 		Test obj = new Test();
 		System.out.println("Red " + obj.sum);
