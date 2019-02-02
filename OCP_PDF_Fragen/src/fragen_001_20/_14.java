@@ -35,10 +35,10 @@ public class _14 {
 	Which code fragment, when inserted at line n1, sorts the employees list in descending order of 
 	fName and then ascending order of lName? 
  
-	A.  .sorted(Comparator.comparing(Emp::getfName).reserved().thenComparing(Emp::getlName)) 
+	A.  .sorted(Comparator.comparing(Emp::getfName).reversed().thenComparing(Emp::getlName)) 
 	B.  .sorted(Comparator.comparing(Emp::getfName).thenComparing(Emp::getlName)) 
-	C.  .map(Emp::getfName).sorted(Comparator.reserveOrder()) 
-	D.  .map(Emp::getfName).sorted(Comparator.reserveOrder().map(Emp::getlName).reserved
+	C.  .map(Emp::getfName).sorted(Comparator.reverseOrder()) 
+	D.  .map(Emp::getfName).sorted(Comparator.reverseOrder().map(Emp::getlName).reversed()
 	
 	Answer: A (see comments)
 	

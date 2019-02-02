@@ -16,9 +16,7 @@ public class _56 { // Foo
 		Map<Integer, String> treeMap = new TreeMap<Integer, String>(new Comparator<Integer>() {
 			@Override
 			public int compare(Integer o1, Integer o2) {
-				return o2.compareTo
-
-				(o1);
+				return o2.compareTo(o1);
 			}
 		});
 		treeMap.putAll(unsortMap);
@@ -28,12 +26,16 @@ public class _56 { // Foo
 	}
 }
 
-/*What is the result?
-A. A compilation error occurs 
-B. d b e z j 
-C. j z e b d 
-D. z b d e j*/
+/*
+	What is the result?
+	
+	A. A compilation error occurs
+	B. d b e z j
+	C. j z e b d
+	D. z b d e j
 
-// https://www.briefmenow.org/oracle/what-is-the-result-934/   Frage 82
-
-// Answer  C    j z e b d 
+	Answer: C
+	
+	siehe auch web_82
+	https://www.briefmenow.org/oracle/what-is-the-result-934/
+*/

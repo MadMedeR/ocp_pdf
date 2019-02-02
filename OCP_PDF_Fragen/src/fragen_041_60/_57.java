@@ -25,7 +25,6 @@ class Address {
 	}
 }
 
-@SuppressWarnings("unused")
 public class _57 {
 	public static void main(String[] args) {
 		Address address = null;

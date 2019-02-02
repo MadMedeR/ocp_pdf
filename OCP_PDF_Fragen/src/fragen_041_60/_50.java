@@ -15,15 +15,17 @@ public class _50 {
 	}
 }
 
-/*Assume that the ready method of the BufferedReader, when called on a closed BufferedReader, 
-  throws an exception, and employee.txt is accessible and contains valid text. What is the result?
- 
-A. A compilation error occurs at line n3.
-B. A compilation error occurs at line n1. 
-C. A compilation error occurs at line n2. 
-D. The code prints the content of the employee.txt file and throws an exception at line n3.*/
-
-
-
-// https://www.briefmenow.org/oracle/what-is-the-result-969/ Frage 6
-// Answer  D
+/*
+	Assume that the ready method of the BufferedReader, when called on a closed BufferedReader,
+	throws an exception, and employee.txt is accessible and contains valid text. What is the result?
+	
+	A. A compilation error occurs at line n3.
+	B. A compilation error occurs at line n1. 
+	C. A compilation error occurs at line n2. 
+	D. The code prints the content of the employee.txt file and throws an exception at line n3.
+	
+	Answer: D
+	
+	siehe auch web_6
+	https://www.briefmenow.org/oracle/what-is-the-result-969/
+*/
