@@ -22,11 +22,15 @@ public class _59 {
 	}
 }
 
-/*What is the result?
-A. 0 Done
-B. First Exception Done
-C. Second Exception
-D. Done Third Exception 
-E. Third Exception*/
+/*
+	What is the result?
+	
+	A. 0 Done
+	B. First Exception Done
+	C. Second Exception
+	D. Done Third Exception 
+	E. Third Exception
 
-//Answer E  third exception
+	Answer: E
+	
+*/
