@@ -1,0 +1,3 @@
+Mal schauen,
+ob eine Exception
+geworfen wird...
