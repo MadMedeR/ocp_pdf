@@ -12,7 +12,6 @@ class DBHandler {
 	}
 }
 
-@SuppressWarnings("unused")
 public class _69 {
 	public static void main(String[] args) {
 		DBHandler r = new DBHandler();

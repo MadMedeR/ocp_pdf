@@ -1,5 +1,7 @@
 package fragen_061_80;
 
+interface Z {}
+
 class X implements Z {
 	public String toString() {
 		return "X ";
@@ -22,8 +24,6 @@ class Y extends X {
 		return "Y ";
 	}
 }
-
-interface Z {}
 
 /*
 	What is the result?

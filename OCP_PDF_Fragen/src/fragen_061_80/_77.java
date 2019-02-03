@@ -4,7 +4,7 @@ package fragen_061_80;
 class FuelNotAvailException extends Exception {}
 
 class Vehicle {
-	//original line: void ride() throws FuelNotAvailException { //line n1
+//	void ride() throws FuelNotAvailException { //line n1 //original line
 	protected void ride() throws Exception { //already solved with Answer B
 		System.out.println("Happy Journey!");
 	}

@@ -10,11 +10,9 @@ public class _097 {
 	}
 }
 
-class SampleClass {
-}
+class SampleClass {}
 
-class AnotherSampleClass extends SampleClass { 
-}
+class AnotherSampleClass extends SampleClass {}
 
 /*
 	What is the result?

@@ -7,8 +7,8 @@ public class _62 {
 	public static void main(String[] args) {
 		List<String> listVal = Arrays.asList("Joe", "Paul", "Alice", "Tom"); 
 		System.out.println ( 
-		// line n1
-		listVal.stream().filter(x -> x.length()>3).count() // already solved with A
+			// line n1 already solved with A:
+			listVal.stream().filter(x -> x.length()>3).count()
 		);
 	}
 }

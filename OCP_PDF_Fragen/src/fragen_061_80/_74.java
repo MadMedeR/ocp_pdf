@@ -25,9 +25,10 @@ class Candidate {
 }
 
 public class _74 {
-	public static void main(String[] args) throws Exception{ //already solved with answer B!
-		Candidate c = new Candidate("James", 20);
-		Candidate c1 = new Candidate("Williams", 32);
+//	public static void main(String[] args) {					//line 5 original
+	public static void main(String[] args) throws Exception {	//line 5 already solved with Answer B
+		Candidate c = new Candidate("James", 20);				//line 6
+		Candidate c1 = new Candidate("Williams", 32);			//line 7
 		System.out.println(c);
 		System.out.println(c1);
 	}
@@ -44,12 +45,12 @@ public class _74 {
 	B. Replacing line 5 with:
 		public static void main (String [] args) throws Exception {
 	C. Enclosing line 6 and line 7 within a try block and adding:
-		catch(Exception e1) { //code goes here}
-		catch (missingInfoException e2) { //code goes here} catch (AgeOutofRangeException
-		e3) {//code goes here}
+		catch (Exception e1) { //code goes here}
+		catch (missingInfoException e2) { //code goes here}
+		catch (AgeOutofRangeException e3) {//code goes here}
 	D. Enclosing line 6 and line 7 within a try block and adding:
-		catch (missingInfoException e2) { //code goes here} catch (AgeOutofRangeException
-		e3) {//code goes here}
+		catch (missingInfoException e2) { //code goes here}
+		catch (AgeOutofRangeException e3) {//code goes here}
 	
 	Answer: B
 */

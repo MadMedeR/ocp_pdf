@@ -1,23 +1,28 @@
 package fragen_101_End;
 
 public class _101 {
-
-public static void main (String[] args) {
-int rateOfInterest = 0;
-String accountType = "LOAN";
-switch (accountType) {
-case "RD": 
-	rateOfInterest = 5;
-break;
-case  "FD":
-	rateOfInterest = 10;
-break;
-default:
-assert false: "No interest for this account";//line n1
-}
-System.out.println ("Rate of interest:" + rateOfInterest);
-}
+	public static void main (String[] args) {
+		int rateOfInterest = 0;
+		String accountType = "LOAN";
+		switch (accountType) {
+			case "RD": rateOfInterest = 5;	break;
+			case "FD": rateOfInterest = 10;	break;
+			default: assert false: "No interest for this account"; //line n1
+		}
+		System.out.println ("Rate of interest: " + rateOfInterest);
+	}
 }
 
+/*
+	and the command:
+	java -ea _101
 
-// Answer B : Assertion error is thrown
+	What is the result?
+	
+	A. Rate of interest: 0
+	B. An AssertionError is thrown
+	C. No interest for this account
+	D. A compilation error occurs at line n1
+	
+	Answer: B
+ */

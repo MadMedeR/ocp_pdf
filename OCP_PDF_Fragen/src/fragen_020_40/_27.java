@@ -41,5 +41,6 @@ public class _27 {
 	Answer: C		The connection is created in try with resources. So is closed when try clause finishes.
 					Creating statement upon closed connection produces SQLException.
 	
+	siehe auch web_57
 	http://www.briefmenow.org/oracle/what-is-the-result-944/
 */
