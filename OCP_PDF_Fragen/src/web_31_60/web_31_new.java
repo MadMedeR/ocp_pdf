@@ -1,8 +1,6 @@
 package web_31_60;
 
-@SuppressWarnings("unused")
 class Customer {
-	
 	private String fName;
 	private String lName;
 	private static int count;
@@ -17,10 +15,8 @@ class Customer {
 	public static int getCount() {return count;}
 }
 
-@SuppressWarnings("unused")
-public class web_31 {
+public class web_31_new {
 	public static void main(String[] args) {
-
 		Customer c1 = new Customer("Larry","Smith");
 		Customer c2 = new Customer("Pedro","Gonzales");
 		Customer c3 = new Customer("Penny","Jones");

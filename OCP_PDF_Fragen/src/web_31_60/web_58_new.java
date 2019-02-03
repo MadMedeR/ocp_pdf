@@ -19,10 +19,10 @@ class ImagePrinter implements AutoCloseable {
 	}
 }
 
-public class web_58 {
+public class web_58_new {
 	public static void main(String[] args) {
 		try (ImageScanner ir = new ImageScanner();
-				ImagePrinter iw = new ImagePrinter()) {
+			 ImagePrinter iw = new ImagePrinter()) {
 			ir.scanImage();
 			iw.printImage();
 		} catch (Exception e) {
@@ -42,5 +42,4 @@ public class web_58 {
 	Answer: A
 	
 	http://www.briefmenow.org/oracle/what-is-the-result-943/
-	
 */

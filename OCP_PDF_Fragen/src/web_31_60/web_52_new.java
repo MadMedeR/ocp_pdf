@@ -10,8 +10,7 @@ class Test<T> {
 	}
 }
 
-@SuppressWarnings({"rawtypes","unchecked"})
-public class web_52 {
+public class web_52_new {
 	public static void main (String args [ ] ) {
 		Test<String> type = new Test<>();
 		Test type1 = new Test();			//line n1

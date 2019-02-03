@@ -25,7 +25,7 @@ class Book implements Comparator<Book> {
 	}
 }
 
-public class web_49 {
+public class web_49_new {
 	public static void main(String[] args) {
 		List<Book>books = Arrays.asList (
 			new Book ("Beginning with Java", 2),
@@ -35,6 +35,7 @@ public class web_49 {
 		System.out.print(books);
 	}
 }
+
 /*
 	What is the result?
 	A. [A Guide to Java Tour:3, Beginning with Java:2]

@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 	and given the code fragment:
 */
 
-public class web_53 {
+public class web_53_new {
 	public static void main (String[ ] args) {
 		int i;
 		char c;
@@ -38,5 +38,4 @@ public class web_53 {
 	Answer: B
 	
 	http://www.briefmenow.org/oracle/what-is-the-result-948/
-		
 */
