@@ -6,16 +6,15 @@ public class _189 {
 		float var2 = var1 + 1024;
 		System.out.println(var2);
 	}
-
 }
 
 /*
-
-What is the result?
-A. 13480.02 
-B. An exception is thrown at runtime
- C. 13480.0 
- D. Compilation fails
+	What is the result?
+	
+	A. 13480.02
+	B. An exception is thrown at runtime
+	C. 13480.0
+	D. Compilation fails
+	
+	Answer: C
 */
-
-//  Answer C. 13480.0  

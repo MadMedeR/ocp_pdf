@@ -10,7 +10,7 @@ public class web_84 {
 		IntStream stream = IntStream.of (1,2,3);
 		IntFunction<IntUnaryOperator> inFu = x -> y -> x*y;  //line n1
 		IntStream newStream = stream.map(inFu.apply(10)); //line n2
-		newStream.forEach(System.output::print);
+		newStream.forEach(System.out::print);
 	}
 }
 
@@ -28,4 +28,4 @@ public class web_84 {
 // D.Replace line n2 with:
 // IntStream newStream = stream.map(inFu.applyAsInt (10));
 
-// Answer D
+// Answer B

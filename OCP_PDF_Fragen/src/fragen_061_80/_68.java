@@ -25,7 +25,7 @@ class Sum extends RecursiveAction { //line n1
 			}
 			System.out.println(sum);
 		} else {
-			new Sum (data, stIndex + THRESHOLD_SIZE, lstIndex).fork( );
+			new Sum (data, stIndex + THRESHOLD_SIZE, lstIndex).fork();
 			new Sum (data, stIndex, Math.min(lstIndex, stIndex + THRESHOLD_SIZE)).compute();
 		}
 	}

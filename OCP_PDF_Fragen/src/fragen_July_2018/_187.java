@@ -10,13 +10,12 @@ public class _187 {
 }
 
 /*
-Which command-line arguments should you pass to the program to obtain the following output?
-*/
-
-/*
-A. java MyFile 0 1 2 3    // Arg is 3
-B. java MyFile 1 3 2 2    // Arg is 2
-C. java MyFile 1 2 2 3 4   // Arg is 3
-D. java MyFile 2 1 2    //Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	                     at fragen_July_2018._187.main(_187.java:7)
+	Which command-line arguments should you pass to the program to obtain the following output?
+	
+	A. java MyFile 0 1 2 3		// Arg is 3
+	B. java MyFile 1 3 2 2		// Arg is 2
+	C. java MyFile 1 2 2 3 4	// Arg is 3
+	D. java MyFile 2 1 2		// ArrayIndexOutOfBoundsException
+	
+	Answer: Probably B            
 */
